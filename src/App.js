@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoTemplate from './components/TodoTemplate';
 
-function App() {
+const App = () => {
   return (
     <>
-      <h4>ScheduleManage 만들기</h4>
+      <TodoTemplate>ScheduleManage 만들기</TodoTemplate>
     </>
   );
 }
