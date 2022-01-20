@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import TodoTemplate from './components/TodoTemplate';
+import TodoInsert from './components/ToddInsert';
 
 const App = () => {
   return (
     <>
-      <TodoTemplate>ScheduleManage 만들기</TodoTemplate>
+      <TodoTemplate>
+        <TodoInsert />
+      </TodoTemplate>
     </>
   );
 }
