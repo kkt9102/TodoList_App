@@ -5,7 +5,7 @@ import './Todo.css';
 
 const TodoTemplate = ({ children }) =>{
     return (
-        <div className="TodoTemplat">
+        <div className="TodoTemplate">
             <div className="app_title">일정관리</div>
             <div className="content">{children}</div>
         </div>
