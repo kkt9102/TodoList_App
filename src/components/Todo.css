@@ -11,4 +11,5 @@
 .TodoListItem .checkbox {display:flex; flex-grow:1; align-items:center; cursor: pointer;}
 .TodoListItem .checkbox svg {font-size:2.4rem;}
 .TodoListItem .checkbox .text {margin-left:0.5rem; flex:1 0 0;}
+.TodoListItem .checkbox.checked {color:#868e96; text-decoration: line-through;}
 .TodoListItem .remove svg {font-size:2.4rem; color:#ff6b6b;}
