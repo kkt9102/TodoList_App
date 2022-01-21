@@ -5,7 +5,7 @@ import {MdCheckCircleOutline
     , MdCheckBoxOutlineBlank
     , MdCheckBox } from 'react-icons/md';
     
-import 'Todo.css';
+import './Todo.css';
 
 const TodoListItem = () => {
     return(
