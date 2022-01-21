@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import TodoTemplate from './components/TodoTemplate';
 import TodoInsert from './components/ToddInsert';
+import TodoList from './components/TodoList';
 
 const App = () => {
   return (
     <>
       <TodoTemplate>
         <TodoInsert />
+        <TodoList />
       </TodoTemplate>
     </>
   );
