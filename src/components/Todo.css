@@ -6,3 +6,7 @@
 .TodoTemplate .content input::placeholder {color:#eeeeee;}
 .TodoTemplate .content button {width:6rem; height:4rem; border:none; outline:none; background:#868e96; color:#ffffff; font-size:2rem;}
 .TodoTemplate .TodoInsert {display:flex;}
+.TodoList {min-height: 32rem; max-height: 51.3rem; overflow-y:auto;}
+.TodoListItem {padding:1rem; display:flex; align-items:center; border-bottom:0.1rem solid #dddddd;}
+.TodoListItem .checkbox {display:flex; flex-grow:1; align-items:center; cursor: pointer;}
+.TodoListItem .checkbox .text {margin-left:0.5rem; flex:1 0 0;}
