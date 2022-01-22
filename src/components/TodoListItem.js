@@ -8,7 +8,7 @@ import cn from 'classnames';
 import './Todo.css';
 
 // import './TodoListItem.scss';
-const TodoListItem = ({todo}) => {
+const TodoListItem = ({ todo, onRemove }) => {
     const { text,checked } = todo;
     return(
         <div className="TodoListItem">
