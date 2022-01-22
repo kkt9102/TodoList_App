@@ -34,7 +34,7 @@ const App = () => {
       };
 
       setTodos(todos.concat(todo));
-      nextId.current += 1;
+      nextId.current += 1;      // nextId +1씩 증가
     },
     [todos],
   )
